@@ -87,7 +87,7 @@ project structure:
     index.js
 ```
 
-/app/indes.js :
+/app/index.js :
 ```js
 const express = require("express");
 const app = express();
