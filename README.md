@@ -20,12 +20,12 @@ const Post = require('./models/post')
 ```
 or you can sent your models directory. but in models dir must be somthing like this :
 
-/models/indes.js:
+/models/index.js:
 ```js
 // you must do this for all of you models
 exports.Post = require('./post')
 ```
-and then insted of using model object in next step you cant just use model Sting name like this :`indes(req , "Post")`
+and then insted of using model object in next step you cant just use model Sting name like this :`index(req , "Post")`
 
 ```js
 ICED.modelsPath = '/models'
